@@ -1,0 +1,151 @@
+#ONE-WAY ANOVA
+
+library(carData)
+library(car)
+
+#Data AML
+aml.feses.a = read.delim("clipboard")
+aml.feses.b = read.delim("clipboard")
+aml.feses.c = read.delim("clipboard")
+aml.feses.no = read.delim("clipboard")
+aml.feses = c(aml.feses.a$A, aml.feses.b$B, aml.feses.c$C, aml.feses.no$No)
+jenisfeses <- c(rep("F1",5), rep("F2",2), rep("F3",2),rep("F4",3))
+jenisfeses = factor(jenisfeses)
+data.aml = data.frame(jenisfeses,aml.feses)
+data.aml
+
+model.aml = lm(aml.feses~jenisfeses, data = data.aml)
+anova(model.aml)
+
+#ONE-WAY ANOVA
+
+library(carData)
+library(car)
+
+#Data AMC
+amc.feses.a = read.delim("clipboard")
+amc.feses.b = read.delim("clipboard")
+amc.feses.c = read.delim("clipboard")
+amc.feses.no = read.delim("clipboard")
+amc.feses = c(amc.feses.a$A, amc.feses.b$B, amc.feses.c$C, amc.feses.no$No)
+jenisfeses <- c(rep("F1",5), rep("F2",2), rep("F3",2),rep("F4",3))
+jenisfeses = factor(jenisfeses)
+data.amc = data.frame(jenisfeses,amc.feses)
+data.amc
+
+model.amc = lm(amc.feses~jenisfeses, data = data.amc)
+anova(model.amc)
+
+#ONE-WAY ANOVA
+
+library(carData)
+library(car)
+
+#Data CN
+cn.feses.a = read.delim("clipboard")
+cn.feses.b = read.delim("clipboard")
+cn.feses.c = read.delim("clipboard")
+cn.feses.no = read.delim("clipboard")
+cn.feses = c(cn.feses.a$A, cn.feses.b$B, cn.feses.c$C, cn.feses.no$No)
+jenisfeses <- c(rep("F1",5), rep("F2",2), rep("F3",2),rep("F4",3))
+jenisfeses = factor(jenisfeses)
+data.cn = data.frame(jenisfeses,cn.feses)
+data.cn
+
+model.cn = lm(cn.feses~jenisfeses, data = data.cn)
+anova(model.cn)
+
+#ONE-WAY ANOVA
+
+library(carData)
+library(car)
+
+#Data CIP
+cip.feses.a = read.delim("clipboard")
+cip.feses.b = read.delim("clipboard")
+cip.feses.c = read.delim("clipboard")
+cip.feses.no = read.delim("clipboard")
+cip.feses = c(cip.feses.a$A, cip.feses.b$B, cip.feses.c$C, cip.feses.no$No)
+jenisfeses <- c(rep("F1",5), rep("F2",2), rep("F3",2),rep("F4",3))
+jenisfeses = factor(jenisfeses)
+data.cip = data.frame(jenisfeses,cip.feses)
+data.cip
+
+model.cip = lm(cip.feses~jenisfeses, data = data.cip)
+anova(model.cip)
+
+#ONE-WAY ANOVA
+
+library(carData)
+library(car)
+
+#Data C
+c.feses.a = read.delim("clipboard")
+c.feses.b = read.delim("clipboard")
+c.feses.c = read.delim("clipboard")
+c.feses.no = read.delim("clipboard")
+c.feses = c(c.feses.a$A, c.feses.b$B, c.feses.c$C, c.feses.no$No)
+jenisfeses <- c(rep("F1",5), rep("F2",2), rep("F3",2),rep("F4",3))
+jenisfeses = factor(jenisfeses)
+data.c = data.frame(jenisfeses,c.feses)
+data.c
+
+model.c = lm(c.feses~jenisfeses, data = data.c)
+anova(model.c)
+
+#ONE-WAY ANOVA
+
+library(carData)
+library(car)
+
+#Data E
+e.feses.a = read.delim("clipboard")
+e.feses.b = read.delim("clipboard")
+e.feses.c = read.delim("clipboard")
+e.feses.no = read.delim("clipboard")
+e.feses = c(e.feses.a$A, e.feses.b$B, e.feses.c$C, e.feses.no$No)
+jenisfeses <- c(rep("F1",5), rep("F2",2), rep("F3",2),rep("F4",3))
+jenisfeses = factor(jenisfeses)
+data.e = data.frame(jenisfeses,e.feses)
+data.e
+
+model.e = lm(e.feses~jenisfeses, data = data.e)
+anova(model.e)
+
+#ONE-WAY ANOVA
+
+library(carData)
+library(car)
+
+#Data TE
+te.feses.a = read.delim("clipboard")
+te.feses.b = read.delim("clipboard")
+te.feses.c = read.delim("clipboard")
+te.feses.no = read.delim("clipboard")
+te.feses = c(te.feses.a$A, te.feses.b$B, te.feses.c$C, te.feses.no$No)
+jenisfeses <- c(rep("F1",5), rep("F2",2), rep("F3",2),rep("F4",3))
+jenisfeses = factor(jenisfeses)
+data.te = data.frame(jenisfeses,te.feses)
+data.te
+
+model.te = lm(te.feses~jenisfeses, data = data.te)
+anova(model.te)
+
+#ONE-WAY ANOVA
+
+library(carData)
+library(car)
+
+#Data TE
+te.feses.a = read.delim("clipboard")
+te.feses.b = read.delim("clipboard")
+te.feses.c = read.delim("clipboard")
+te.feses.no = read.delim("clipboard")
+te.feses = c(te.feses.a$A, te.feses.b$B, te.feses.c$C, te.feses.no$No)
+jenisfeses <- c(rep("F1",5), rep("F2",2), rep("F3",2),rep("F4",3))
+jenisfeses = factor(jenisfeses)
+data.te = data.frame(jenisfeses,te.feses)
+data.te
+
+model.te = lm(te.feses~jenisfeses, data = data.te)
+anova(model.te)
